@@ -1,0 +1,16 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+    font-family: 'DwarvenAxe';
+    src: url('/fonts/dwarvenaxebb.otf');
+    src: url('/fonts/dwarvenaxebb.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+    display: swap;
+}
+
+.font-main {
+    font-family: 'DwarvenAxe', serif;
+}
